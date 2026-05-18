@@ -19,6 +19,56 @@ Then open your browser http://localhost:8081.
 - Websockets
 - SQLite Database
 
+A modern real-time forum application built with Go and JavaScript.
+
+RT Forum combines classic discussion boards with live communication features. Users can create posts, participate in discussions, and chat instantly through WebSockets — all inside a smooth Single Page Application (SPA) experience without full page reloads.
+
+---
+
+## Features
+
+- Real-time messaging using WebSockets
+- Create and manage forum posts
+- Comment system
+- Single Page Application (SPA) navigation
+- Live updates without refreshing the page
+- Authentication system
+- Fast Go backend
+- Lightweight JavaScript frontend
+- Persistent data storage with SQLite
+- Responsive UI
+
+---
+
+## Tech Stack
+
+### Backend
+- Go (Golang)
+- WebSockets
+- SQLite
+- REST API
+
+### Frontend
+- Vanilla JavaScript
+- HTML5
+- CSS3
+
+---
+
+## Architecture
+
+The application uses:
+
+- Go backend server for API handling, authentication, WebSocket management, and database operations
+- JavaScript frontend for dynamic SPA rendering
+- WebSocket connections for instant real-time communication
+
+The frontend dynamically updates content without changing or reloading pages, similar to applications like Gmail or Discord.
+
+---
+
+
+
 #### Screenshots:
 
 <details>
